@@ -2,6 +2,8 @@ import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-d
 import Dashboard from '../modules/dashboard';
 import Login from '../modules/auth/login';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 const auth = { user: 'John Doe', role: 'Admin' };
 
 function App() {
