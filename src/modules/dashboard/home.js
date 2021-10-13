@@ -4,7 +4,7 @@ import PlaceholderImg from '../../assets/images/placeholder.jpg';
 
 export default function Home() {
 	return (
-		<div style={{ marginTop: 40, marginBottom: 30 }}>
+		<div>
 			<Container>
 				<Row>
 					<Col>
